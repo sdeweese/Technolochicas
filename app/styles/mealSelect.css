@@ -1,0 +1,201 @@
+body{
+	xbackground:#545EA8;
+	background-image: url("/images/marketPlace.jpg");
+	background-size: 100%;
+	background-repeat:no-repeat;
+	xbackground-attachment: fixed;
+	font-family: Josefin Slab, serif;
+}
+.container {
+
+}
+
+#nav{
+	padding: none;
+}
+.navbar{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	height:10%;
+	list-style:none;
+	background-color: rgba(235, 230, 236, 0.9);
+	color: #001414;
+	border-color:white;
+	border-bottom-style:dotted;
+	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+	border-bottom-width: medium;
+	z-index:100;
+
+}
+#button1, #button2, #button3, #button4, #button5{
+	height:10%;
+	color:#2EACB8;
+	z-index:101;
+}
+#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover{
+	height:10%;
+	background-height:10%;
+	background-color:#C1E3E6;
+	z-index:101;
+}
+#logo{
+	 position: relative;
+  	padding-top: 1%;
+  	padding-bottom: 1%;
+  	height:10%;
+  	list-style: none;
+	background-image:#292F5E;
+	text-align: center;
+	vertical-align: middle;
+	color: black;
+	font-family: Josefin-Slab;
+	font-size:	150%;
+	border-color:white;
+	border-bottom-style:dotted;
+	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+	border-bottom-width: medium;
+
+}
+#blind{
+    /*position element so the z-index can be set */
+   position:absolute;
+   /* set z-index so the blind will cover all page content */
+   z-index:9999;
+   /* set the top, left, width and height so the blind covers the browser window */
+   top:0;
+   left:0;
+   width:100%;
+   height:1000%;
+   /* set the background to a suitably dark tone */
+   background-color:#000000;
+   opacity: 0.9;
+}
+
+
+#modal .window, #modal2 .window {
+   
+   position:absolute;
+   z-index:10000;
+   width:400px;
+   height:248px;
+   margin-left:-200px;
+   margin-top:-124px;
+   left:-1000px;
+   top:-1000px;
+   background-color:#ffffff;
+   box-shadow:4px 4px 80px #000;
+   -webkit-box-shadow:4px 4px 80px #000;
+   -moz-box-shadow:4px 4px 80px #000;
+}
+ 
+ #recipes p, #reviews p, #contact p{
+	font-family: Josefin Slab;
+	color: black;
+	padding-left: 5%;
+	padding-right: 5%;
+	opacity:1.0;
+}
+
+#recipes h2, #reviews h2, #contact h2{
+	font-family: Josefin Slab;
+	color: black;
+	font-size: 200%;
+	border-radius: 5px;
+	opacity:1.0;
+
+}
+
+@font-face {
+	font-family: 'WisdomScriptAJ';
+	src: url('Wisdom-Script.otf');
+	
+}
+
+.rightMenu{
+	/*margin-left: 50px;*/
+	font-family: Josefin Slab;
+}
+.nav ul{
+		display:inline;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+ .body{  color:#fff; }		
+	.meals-wrap  { float:left; width:20%; margin:0 5% 0 0; padding:0; }		
+	.filter-wrap  { float:left; width:20%; margin:0 5% 5% 5%; padding:0; text-align:center; position:relative;background-color: rgba(235, 230, 236, 0.9);opacity:0.9; font-family:Josefin Slab;}  
+	.filter-wrap h3{font-family:Josefin Slab;color:#248891;font-size:150%;} 
+	.filter-wrap p{font-family:Josefin Slab;color:#248891;}
+	.meals { float:left; width:50%; }
+	.meals div{ float:left; width:90%; height:63px; padding-top:5%;padding-bottom:10%; background-color:rgba(235, 230, 236, 0.9); color:#248891; margin:0 0 1px; position:relative; text-align:center; vertical-align:center; font-family:'WisdomScriptAJ';font-size:150%;}	
+	.meals div:hover {color:white; background-color:#248891;opacity:0.9;text-decoration:none;}
+
+.nav li{	
+	display: inline;
+	padding: 10px;
+
+}
+h1{
+	padding: 20px;
+	font-family: Josefin Slab;
+	font-size:	100%;
+	text-decoration:none;
+	color:#248891;
+}
+.chooseFilters ul{
+	margin: 50px;
+	padding: 50px;
+	padding-bottom: 50px;
+	font-size: 20px;
+
+}
+.chooseFilters a{
+
+	width: 40%;
+}
+.chooseFilters li, .tofood{
+	display: inline;	
+	box-sizing: border-box;
+	width: 300px;
+	border: 3px solid #F5F5F7;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 10px;
+	background-color:rgba(235, 230, 236, 0.9);
+	opacity:0.9;
+	font-family: Josefin Slab;
+	font-size:	100%;
+	text-decoration:none;
+	color:#248891;
+}
+.chooseFilters li:hover, .tofood:hover{
+	background-color: #248891;
+	font-family: Josefin Slab;
+	font-size:	100%;
+	text-decoration:none;
+	color:white;
+}
+.chooseFilters li: active, .chooseFilters li: visited{
+	background-color: #248891;
+	font-family: Josefin Slab;
+	font-size:	100%;
+	text-decoration:none;
+	color:white;
+}
+.chooseFilters a{
+	text-decoration: none;
+	font-family: WisdomScriptAJ;
+	font-size:	100%;
+	text-decoration:none;
+	color:white;
+}

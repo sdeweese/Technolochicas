@@ -1,0 +1,40 @@
+ <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+
+           <div class="inner cover">
+            <h1 class="cover-heading" id="demo">Your Event Info: </h1>
+            <p class="lead">
+              
+            </p>
+
+          </div>
+
+        </div>
+
+    
+    <a <button role="button" href="/#/sharksGame" id="button1" class="btn btn-lg btn-primary" onclick="total(); going(); counts();" >Be There</button></a>
+    <a <button type="button" class= "btn btn-lg btn-primary" href="/#/sharksGame" id = "button2" onclick="total(); counts();">Be Square</button></a>
+  
+
+      </div>
+
+    </div>
+
+        <script>
+          var event = {
+            name: "Maroon 5",
+            type: "concert",
+            address: "500 El Camino Real Santa Clara, CA",
+            time: "9:00",
+            cost: "$25",
+            ageReq: "18",
+            likes: 400,
+          };
+
+          document.getElementById("demo").innerHTML = "<strong> Title: </strong>" + event.name + "<br> <strong>Type: </strong>" + event.type + "<br> <strong>Address: </strong>" + event.address + "<strong><br> Time: </strong>" + event.time + "<br> <strong>Cost: </strong>" + event.cost + "<br> <strong>Likes: </strong>" + event.likes; 
+        </script>
+
