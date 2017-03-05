@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Create a San Jose event</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<script src="script-1.js">
+	</script>
+<!--	<a class="createEventButton" href="#">Create Event</a> -->
+	<a href="javascript:open('appBox');"></a>
+	<div id="appBox" class="closed">
+		<div id="app">
+		<form method="POST" action="EVENTS.html">
+			<label>
+			Event: <input type="text" name="name"/>
+		</label>
+		<p>
+		<label>
+			Type: <input type="text" name="tag"/ >
+			<br>
+			(Please enter one of the following: Adult, Art, Food, Music, Park, Science, Sports)
+		</label> 
+		</p>
+		<p>
+		<label>
+			Address: <input type="text" name="address"/>
+		</label>
+		</p>
+		<p>
+		<label>
+		    Date: <input type="date" name="date"/>
+		</label>
+		<label>
+		    From: <input type="time" name="start_time"/>
+			To: <input type="time" name="end_time"/>
+		</label>
+	 	</p>
+	    <p>
+		<label>
+		    Estimated cost: <input type="number" name="cost"/>
+		</label>
+		</p>
+		<p>
+			Age Requirement: <input type="number" name="age"/>
+		</p>
+	<!--		<p>
+			Picture: <input type="file" name="pic"/>
+		</p> -->
+		<input type="submit" value="Enter"/>
+		</form>
+	<!--	<a class="cancelAppButton" href="#">Cancel</a>
+		<a class="submitAppButton" href="#">Submit</a> -->
+	</div>
+	</div>
+</body>
+</html>
+

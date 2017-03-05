@@ -1,0 +1,81 @@
+body {
+	font-family: monospace;
+}
+#appBox {
+	display: block;
+	background-color:rgba(251,231,158,0.07);
+	border: 1px solid #ffe670;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom: 12px;
+	width:auto;
+	position: absolute;
+	left:auto;
+} /*
+.createEventButton {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	padding: 12px 24px;
+	border: 1px solid #469746;
+	border-radius: 8px;
+	background: #57bd57;
+	font: normal normal bold 18px;
+	color: #daebe4;
+	text-decoration: none;
+}
+.createEventButton:hover,
+.createEventButton:hover,
+.createEventButton:focus {
+	border: 1px solid #57bd57;
+	background: #68e368;
+	color: #daebe4;
+	text-decoration: none;
+}
+.createEventButton:active {
+	background: #347134;
+} */ 
+.cancelAppButton {
+	display: inline-block;
+	text-align: center;
+	vertical-align: bottom;
+	padding: 12px 24px;
+	border: 1px solid #bd081c;
+	border-radius: 8px;
+	background: #d64937;
+	font: normal normal bold 18px;
+	color: #daebe4;
+	text-decoration: none;
+}
+.cancelAppButton:hover,
+.cancelAppButton:focus {
+	border: 1px solid #d64937;
+	background: #fc7361;
+	color: #daebe4;
+	text-decoration: none;
+}
+.cancelAppButton:active {
+	background: #a02414;
+}
+.submitAppButton {
+	display: inline-block;
+	text-align: center;
+	vertical-align: bottom;
+	padding: 12px 24px;
+	border: 1px solid #469746;
+	border-radius: 8px;
+	background: #57bd57;
+	font: normal normal bold 18px;
+	color: #daebe4;
+	text-decoration: none;
+}
+.submitAppButton:hover,
+.submitAppButton:focus {
+	border: 1px solid #57bd57;
+	background: #68e368;
+	color: #daebe4;
+	text-decoration: none;
+}
+.submitAppButton:active {
+	background: #347134;
+}
